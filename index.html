@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>HJM Design</title>
+  <!-- Bootstrap core CSS-->
+  <link href="css/bootstrap/bootstrap.css" rel="stylesheet">
+  <link href="css/menu-sidebar.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container-fluid nopadding">
+    <div id="wrapper">
+      <div class="overlay"></div>
+      <nav class="navbar navbar-inverse navbar-fixed-top"
+      id="sidebar-wrapper" role="navigation">
+      <ul class="nav sidebar-nav">
+        <li class="sidebar-brand">
+          <a href="#">Home</a>
+        </li>
+        <li><a href="views/Hector.html">Hector</a></li>
+        <li><a href="views/Judith.html">Judith</a></li>
+        <li><a href="views/Manuel.html">Manuel</a></li>      
+      </ul>
+    </nav>
+
+
+    <section id="page-content-wrapper">
+      <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+        <span class="hamb-top"></span>
+        <span class="hamb-middle"></span>
+        <span class="hamb-bottom"></span>
+      </button>
+
+      <article class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <img src="img/logos.jpg" class="adaptar img-fluid">
+          </div>
+          <div class="col-md-7">
+            <h2 class="section-heading">Tres perspectivas, una pasi&oacute;n</h2>
+            <br>
+            <p class="">Tenemos una misma meta, tres estilos diferentes, desde el minimalismo, hasta la pasi&oacute;n y la ilustraci&oacute;n con fantas&iacute;a, todas juntas para ofrecer algo que sin duda es innovador y totalmente fresco. Cada uno de nosotros tiene habilidades que se complementan &iacute;ntegramente para trabajar con profesionalismo.</p>
+            <br>
+            <p class="">Somos j&oacute;venes que poseen visi&oacute;n para ver hacia el futuro y expresarla en cada uno de nuestros trabajos, demostrando no s&oacute;lo conocimientos del diseño, sino tambi&eacute; valores en los que nuestra filosof&iacute;a est&aacute; basada.</p>
+            <br>
+
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-md-4">
+           <div class="card text-center">
+            <img class="adaptar img-fluid" src="img/miembrohector.png">
+            <div class="card-body">
+              <h4 class="section-heading">H&eacute;ctor Pleitez</h4>
+              <h6 class="text-muted">Diseñador Gr&aacute;fico</h6>
+              <p>Especialista en la creaci&oacute;n y 
+            diseño de personajes para cuentos y obras de 
+            ficci&oacute;n variadas.</p>
+            </div>
+            <div class="card-footer">
+              <a href="views/Hector.html">Saber m&aacute;s</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+         <div class="card text-center">
+          <img class="adaptar img-fluid" src="img/fotojudith.jpg">
+          <div class="card-body">
+            <h4 class="section-heading">Judith Palacios</h4>
+            <h6 class="text-muted">Diseñadora gr&aacute;fica y Escritora</h6>
+            <p>Amor, pasión, delicadeza y feminidad en escritura en prosa, especialista en diseño publicitario y editorial.</p>
+          </div>
+          <div class="card-footer">
+            <a href="views/Judith.html">Saber m&aacute;s</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+       <div class="card text-center">
+        <img class="adaptar img-fluid" src="img/fotomanuel.jpg">
+        <div class="card-body">
+          <h4 class="section-heading">Manuel Montano</h4>
+          <h6 class="text-muted">Diseñador gr&aacute;fico</h6>
+          <p>Especialista en diseño editorial, se destaca en el trabajo con tipografía y un estilo minimalista.</p>
+        </div>
+        <div class="card-footer">
+          <a href="views/Manuel.html">Saber m&aacute;s</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</article>
+<br>
+<footer class="py-5 bg-dark">
+  <div class="container">
+    <p class="m-0 text-center text-white">Tecnolog&iacute;a Aplicada al Diseño Gr&aacute;fico 2017</p>
+  </div>
+</footer>
+</section>
+</div>
+</div>
+
+<!-- Bootstrap core JavaScript-->
+<script src="js/jquery/jquery-1.12.4.js"></script>
+<script src="js/bootstrap/bootstrap.js"></script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    var trigger = $('.hamburger'),
+    overlay = $('.overlay'),
+    isClosed = false;
+
+    trigger.click(function () {
+      hamburger_cross();      
+    });
+
+    function hamburger_cross() {
+
+      if (isClosed == true) {          
+        overlay.hide();
+        trigger.removeClass('is-open');
+        trigger.addClass('is-closed');
+        isClosed = false;
+      } else {   
+        overlay.show();
+        trigger.removeClass('is-closed');
+        trigger.addClass('is-open');
+        isClosed = true;
+      }
+    }
+
+    $('[data-toggle="offcanvas"]').click(function () {
+      $('#wrapper').toggleClass('toggled');
+    });  
+  });
+</script> 
+</div>
+</body>
+
+</html>
