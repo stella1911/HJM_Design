@@ -8,7 +8,7 @@
 body, html {
   width: 100%;
   height: 100%;
-  background: #0c0e2c;
+  background: white;
 }
 .nopadding{
 padding: 0 !important;
@@ -37,12 +37,12 @@ padding: 0 !important;
 }
 
 .imagen { 
-  width: 150px;
-  height: 150px;
-  border-radius: 150px; 
-  -webkit-border-radius: 150px; 
-  -moz-border-radius: 150px; 
-  background: url(../img/foto-de-perfil.jpg) 
+  width: 300px;
+  height: 300px;
+  border-radius: 300px; 
+  -webkit-border-radius: 300px; 
+  -moz-border-radius: 300px; 
+  background: url(../img/foto-de-perfil-jud.jpg) 
   no-repeat; 
   box-shadow: 0 0 8px rgba(0, 0, 0, 1.0); 
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8); 
@@ -85,14 +85,11 @@ padding: 0 !important;
     padding-top: 3rem!important;
     padding-bottom: 3rem!important;
 } 
-.bg-dark {
-   color: #f8f8f8;
-    background-color: #343a40!important;
-}
+
 .banner{
   padding: 100px 0;
   color: rgb(248, 248, 248);
-  background: url("../img/banner.png") no-repeat center center;
+  background: url("../img/banner-bg.jpg") no-repeat center;
   background-size:cover;
   }
 
@@ -143,13 +140,11 @@ ul > li > a{
 }
 .content-section-a{
   padding: 50px 0;
-  background-color: rgb(124, 140, 162);
+  background-color: rgb(254, 230, 239) !important;
 }
 
 .content-section-b{
   padding: 50px 0;
-  border-top: 1px solid rgb(210, 122, 108);
-  border-bottom: 1px solid rgb(210, 122, 108);
 }
 
 .hamb-top2{
@@ -177,16 +172,14 @@ ul > li > a{
 }
 
 .texto{
-  color: rgb(255, 255, 255) !important;
+  color: rgb(0, 0, 0) !important;
 }
 
 .section-heading{
-  color: rgb(255, 255, 255) !important;
+  color: rgb(123, 47, 94) !important;
+  font-family: helvetica;
 }
 
-.container{
-  background: rgb(57, 84, 151);
-}
 
 #page-content-wrapper{
   padding-top: 0px !important;
@@ -194,13 +187,26 @@ ul > li > a{
 }
 
 .bg-dark{
-  background: rgb(40, 63, 137) !important;
+  color: white;
+  background: rgb(206, 90, 142) !important;
 }
 
 .texto-miembros{
   color: rgb(13, 26, 67);
 }
 
-.section-heading-miembros{
-  color: rgb(26, 44, 133);
+.lead{
+  font-size: 20px;
+  color: rgb(131, 49, 100) !important;
+  font-family: helvetica !important;
+  text-align: justify !important;
+}
+
+.content-section-c{
+  padding: 50px 0;
+  background-color: rgb(254, 230, 239) !important;
+}
+
+.enlace{
+  color: rgb(236, 116, 215);
 }
