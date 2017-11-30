@@ -7,10 +7,9 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <title>H&eacute;ctor Pleitez</title>
-  <!-- Bootstrap core CSS-->
   <link href="../css/bootstrap/bootstrap.css" rel="stylesheet">
   <link href="../css/menu-sidebar.css" rel="stylesheet">
-  <link href="../css/style.css" rel="stylesheet">
+  <link href="../css/estilo2.css" rel="stylesheet">
 </head>
 
 <body>
@@ -23,43 +22,134 @@
         <li class="sidebar-brand">
           <a href="../index.html">Home</a>
         </li>
-        <li><a href="#">Hector</a></li>
+        <li><a href="Hector.html">Hector</a></li>
         <li><a href="Judith.html">Judith</a></li>
         <li><a href="Manuel.html">Manuel</a></li>      
       </ul>
     </nav>
 
 
-    <section id="page-content-wrapper">
+  <section id="page-content-wrapper" style="padding-top: 0 !important">
       <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
-        <span class="hamb-top"></span>
-        <span class="hamb-middle"></span>
-        <span class="hamb-bottom"></span>
+        <span class="hamb-top hamb-top2"></span>
+        <span class="hamb-middle hamb-top2"></span>
+        <span class="hamb-bottom hamb-top2"></span>
       </button>
-      <div class="mi diseño">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-5"></div>
-            <div class="col-md-7"></div>
-          </div>
+     
+              <article id="miSlide" class="carousel slide">
+                <ol class="carousel-indicators">
+                  <li class="active"  data-target="#miSlide" data-slide-to="0"></li>
+                  <li data-target="#miSlide" data-slide-to="1"></li>
+                  <li data-target="#miSlide" data-slide-to="2"></li>
+                </ol>
+                
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="../img/upper1.jpg" class="adaptar">
+                    <div class="carousel-caption hidden-xs hidden-md">
+                      <h3>Ilustraci&oacute;n</h3>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="../img/upper2.jpg" class="adaptar">
+                    <div class="carousel-caption hidden-xs hidden-md">
+                      <h3>C&oacute;mic</h3>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="../img/upper3.jpg" class="adaptar">
+                    <div class="carousel-caption hidden-xs hidden-md">
+                      <h3>Diseño de Personajes</h3>
+                    </div> 
+                  </div>
+                </div>
+                <a href="#miSlide" class="left carousel-control" data-slide="prev"> 
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a href="#miSlide" class="right carousel-control" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+              </article>
+
+  <article class="content-section-a">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <hr class="section-heading-spacer"/>
+          <br>
+          <h2 class="section-heading"><strong>D&aacute;ndole vida a tus ideas</strong></h2>
+          <br>
+          <p class="lead"> <h4>La ilustraci&oacute;n es el medio art&iacute;stico que permite dar vida a esas ideas alojadas en lo mas profundo de la mente, no importa lo alocadas o dif&iacute;ciles que estas parezcan perm&iacute;teme ayudarte a que esos pensamientos creativos se vuelvan realidad atraves de una imagen digital, creemos juntos ese personaje, historia o imagen que deseas ver hecho realidad.</h4> </p>
+          <button class="btn btn-md btn-block btn-primary active">Seguir Leyendo</button>
+
+        </div>
+        <div class="col-md-5">
+        <img src="../img/diseño.png" class="img-fluid img-rounded">
         </div>
       </div>
-    </section>
+    </div>
+  </article>
+  <article class="content-section-a">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <img src="../img/editorial.png" class="img-fluid">
+        </div>
+          
+        <div class="col-md-7">
+          <hr class="section-heading-spacer"/>
+          <br>
+          <h2 class="section-heading"><strong>Personajes fantasticos y hermosos paisajes</strong></h2>
+          <br>
+          <p class="lead"> <h4>Desde seres fant&aacute;sticos hasta una alocada caricatura y desde
+            un cielo estrellado hasta un m&aacute;gico bosque, mi trabajo es dar vida a todas tus 
+            ideas por locas que parezcan, no importa lo dif&iacute;cil o complicado que sea nos 
+            pondremos a la altura del reto vamos a ilustrar tu mundo.</h4> </p>
+          <button class="btn btn-md btn-block btn-primary active">Seguir Leyenado</button>
+        </div>
+      </div>
+    </div>
+  </article>
+
+</section> 
+<div class="banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <h2><em>contactame en mis redes</em></h2>
+      </div>
+    </div>
   </div>
 
+</div>
+<footer>
+  <div class="bg-dark py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+        <p class="text-center">CARNET PR03045</p>
+        </div>
+        <div class="col-md-4"></div>
+      </div>
+    </div>
+  </div>
 
-    <!-- Bootstrap core JavaScript-->
-    <script src="../js/jquery/jquery-1.12.4.js"></script>
-    <script src="../js/bootstrap/bootstrap.js"></script>
-    <script src="../js/sb-admin.js"></script>
-      <script type="text/javascript">
-      $(document).ready(function () {
-          var trigger = $('.hamburger'),
-          overlay = $('.overlay'),
-          isClosed = false;
+</footer>
 
-          trigger.click(function () {
-          hamburger_cross();      
+  </div>
+
+   <!-- Bootstrap core JavaScript-->
+<script src="../js/jquery/jquery-1.12.4.js"></script>
+<script src="../js/bootstrap/bootstrap.js"></script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    var trigger = $('.hamburger'),
+    overlay = $('.overlay'),
+    isClosed = false;
+
+    trigger.click(function () {
+      hamburger_cross();      
     });
 
     function hamburger_cross() {
@@ -75,13 +165,13 @@
         trigger.addClass('is-open');
         isClosed = true;
       }
-  }
-  
-  $('[data-toggle="offcanvas"]').click(function () {
-        $('#wrapper').toggleClass('toggled');
-  });  
-});
-  </script> 
+    }
+
+    $('[data-toggle="offcanvas"]').click(function () {
+      $('#wrapper').toggleClass('toggled');
+    });  
+  });
+</script> 
   </div>
 </body>
 
