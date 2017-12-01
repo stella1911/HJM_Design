@@ -42,7 +42,6 @@ padding: 0 !important;
   border-radius: 300px; 
   -webkit-border-radius: 300px; 
   -moz-border-radius: 300px; 
-  background: url(../img/foto-de-perfil-jud.jpg) 
   no-repeat; 
   box-shadow: 0 0 8px rgba(0, 0, 0, 1.0); 
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8); 
@@ -141,7 +140,7 @@ ul > li > a{
 }
 .content-section-a{
   padding: 50px 0;
-  background-color: rgb(102, 177, 207) !important;
+  background-color: rgb(151, 205, 216) !important;
 }
 
 .content-section-b{
