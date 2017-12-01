@@ -87,9 +87,10 @@ padding: 0 !important;
 } 
 
 .banner{
+  height: 300px;
   padding: 100px 0;
   color: rgb(248, 248, 248);
-  background: url("../img/banner-bg.jpg") no-repeat center;
+  background: url("../img/banner2.jpg") no-repeat center;
   background-size:cover;
   }
 
@@ -140,7 +141,7 @@ ul > li > a{
 }
 .content-section-a{
   padding: 50px 0;
-  background-color: rgb(0, 108, 167) !important;
+  background-color: rgb(102, 177, 207) !important;
 }
 
 .content-section-b{
@@ -176,7 +177,7 @@ ul > li > a{
 }
 
 .section-heading{
-  color: rgb(123, 47, 94) !important;
+  color: rgb(165, 116, 49) !important;
   font-family: helvetica;
 }
 
@@ -197,7 +198,7 @@ ul > li > a{
 
 .lead{
   font-size: 20px;
-  color: rgb(131, 49, 100) !important;
+  color: rgb(255, 255, 255) !important;
   font-family: helvetica !important;
   text-align: justify !important;
 }
@@ -208,5 +209,5 @@ ul > li > a{
 }
 
 .enlace{
-  color: rgb(255, 255, 255);
+  color: rgb(174, 0, 1);
 }
