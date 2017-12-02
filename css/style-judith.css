@@ -209,3 +209,45 @@ ul > li > a{
 .enlace{
   color: rgb(236, 116, 215);
 }
+
+h3{
+  text-align: center;
+  color: rgb(134, 54, 97);
+}
+
+.texto2{
+  font-size: 20px;
+  color: rgb(180, 68, 129) !important;
+  font-family: helvetica !important;
+  text-align: justify !important;
+}
+
+.section-heading2{
+  color: rgb(180, 68, 129) !important;
+}
+
+.texto3{
+  font-size: 20px;
+  color: rgb(122, 2, 67) !important;
+  font-family: helvetica !important;
+  text-align: justify !important;
+}
+
+.section-heading3{
+  color: rgb(122, 2, 67) !important;
+}
+
+.texto4{
+  font-size: 20px;
+  color: rgb(151, 70, 114) !important;
+  font-family: helvetica !important;
+  text-align: justify !important;
+}
+
+.section-heading4{
+  color: rgb(151, 70, 114) !important;
+}
+
+.enlace2{
+  color: rgb(87, 17, 55);
+}
